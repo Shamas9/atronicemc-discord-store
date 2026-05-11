@@ -1,8 +1,8 @@
 import discord
 from discord.ext import commands
-import os
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = "MTUwMzA4MzkxNjIwMDc3NTgxMg.GRhhLR.fuqxKgY1XwVi3jyHx5jpAo8qlqiwgETglg4a1Q"
+bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
 bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
 
 PACKAGES = {
